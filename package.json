@@ -1,0 +1,32 @@
+{
+    "name": "continuous"
+  , "version": "0.1.2"
+  , "description": "Event based utility for setTimeout and setInterval"
+  , "homepage": "http://www.blangdon.com/"
+  , "keywords": [
+        "continuous"
+      , "timeout"
+      , "interval"
+      , "continuously"
+      , "event"
+  ]
+  , "author": "Brett Langdon <brett@blangdon.com>"
+  , "contributors": [
+      { "name": "Brett Langdon", "email": "brett@blangdon.com" }
+    ]
+  , "licenses": [
+      {
+          "type": "MIT"
+        , "url": "http://www.opensource.org/licenses/MIT"
+      }
+  ]
+  , "repository":{
+        "type": "git"
+      , "url": "git://github.com/brettlangdon/Continuous.git"
+    }
+  , "dependencies": {
+        "eventemitter2": ">=0.4.9"
+    }
+  , "main": "index.js"
+  , "engines": { "node": ">= 0.6.0" }
+}
